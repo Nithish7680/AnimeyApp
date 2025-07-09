@@ -62,3 +62,13 @@ Here’s the structure of your app:
   ├── /Character/{characterId}   -> Character Detail Page
   ├── /Admin/AddAnime            -> Add/Edit Anime Page
   ├── /Admin/AddCharacter        -> Add/Edit Character Page
+
+
+## 📍 3. NugetPackage Manager
+
+| Package                                | Purpose                                         |
+| -------------------------------------- | ----------------------------------------------- |
+| `Microsoft.EntityFrameworkCore`        | Core EF functionality (models, LINQ, DbContext) |
+| `Microsoft.EntityFrameworkCore.Sqlite` | SQLite support                                  |
+| `Microsoft.EntityFrameworkCore.Tools`  | Tools for migrations and CLI commands           |
+
